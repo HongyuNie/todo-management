@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @AllArgsConstructor
-@CrossOrigin("*")
+@CrossOrigin("*") //all client can access these rest apis
 @RestController
 @RequestMapping("api/todos")
 public class TodoController {
